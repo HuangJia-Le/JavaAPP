@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AliceBlue"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="30sp"/>
+    <GridLayout
+        android:rowCount="5"
+        android:columnCount="4"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_margin="5dp"
+            android:text="1"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_margin="5dp"
+            android:text="2"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_margin="5dp"
+            android:text="3"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_margin="5dp"
+            android:text="÷"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_margin="5dp"
+            android:text="4"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_margin="5dp"
+            android:text="5"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_margin="5dp"
+            android:text="6"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/multi"
+            android:layout_margin="5dp"
+            android:text="×"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_margin="5dp"
+            android:text="7"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_margin="5dp"
+            android:text="8"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_margin="5dp"
+            android:text="9"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_margin="5dp"
+            android:text="-"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/point"
+            android:layout_margin="5dp"
+            android:layout_columnSpan="1"
+            android:text="."
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_margin="5dp"
+            android:text="0"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/clean"
+            android:layout_margin="5dp"
+            android:text="C"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_margin="5dp"
+            android:layout_rowSpan="1"
+            android:text="+"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/delete"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="2"
+            android:layout_margin="5dp"
+            android:text="Del"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="="
+            android:textSize="25sp" />
+    </GridLayout>
+
+</LinearLayout>
