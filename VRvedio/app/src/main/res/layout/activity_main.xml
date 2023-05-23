@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:orientation="vertical">
-    <LinearLayout
+    <!--<LinearLayout
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:orientation="horizontal" tools:layout_editor_absoluteY="530dp"
@@ -37,7 +37,7 @@
                 android:textStyle="bold|italic"
                 android:background="#A39D9D"
                 android:textSize="18sp" />
-    </LinearLayout>
+    </LinearLayout>-->
     <!--VideoView 作为视频播放时的显示位置-->
     <VideoView
             android:id="@+id/video"
