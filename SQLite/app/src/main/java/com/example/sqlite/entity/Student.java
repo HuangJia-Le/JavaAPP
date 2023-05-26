@@ -1,11 +1,16 @@
 package com.example.sqlite.entity;
 
-public class student_tb {
+public class Student {
 
     private Integer id;
     private String studentno;
     private String name;
 
+    public Student(Integer id, String studentno, String name) {
+        this.id = id;
+        this.studentno = studentno;
+        this.name = name;
+    }
 
     @Override
     public String toString() {
